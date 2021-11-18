@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    padding:0;
+}
+/* 去掉所有ul,ol的小圆点 */
+ul,ol{
+    list-style: none;
+}
+/* 去掉所有超链接的下划线 */
+a{
+    text-decoration:none;
+}
+/*通过继承性，给body标签设置字体*/
+body{
+    font:normal 14px/25px "微软雅黑";
+}
+
+/*头部页面*/
+header{
+
+}
+header .header-top{
+    width: 1200px;
+    margin: 0 auto;
+    /*清除浮动*/
+    overflow:hidden;
+}
+header .header-top .logo{
+    padding-top: 27px;
+    width: 221px;
+    height: 63px;
+    float: left;
+}
+header .header-top .logo h1{
+    width: 221px;
+    height: 63px;
+    
+}
+header .header-top .tool{
+    width: 266px;
+    height: 77px;
+    padding-top: 22px;
+    float:right;
+}
+header .header-top .tool .r1 .tel{
+    width:32px;
+    height:26px;
+}
+header .header-top .tool .r1 .telphone{
+    font-size: 20px;
+    color: #00978E;
+    display: inline-block;
+    width:158px;
+    height:26px;
+    text-align:center;
+}
+header .header-top .tool .r1 .icon{
+    width: 24px;
+    height:24px;
+}
+header .header-top .tool .r1 .chinese-icon{
+margin-right:10px;
+
+}
+header .header-top .tool .r2{
+    margin-top: 10px;
+    width: 264px;
+    height:28px;
+    border:1px solid #9999;
+}
+header .header-top .tool .r2 input{
+    float: left;
+    width: 224px;
+    height:28px;
+    border:none;
+    padding-left: 20px;
+    /*去掉鼠标点击时蓝色框*/
+    outline:none;
+}
+header .header-top .tool .r2 button{
+    float: left;
+    width: 20px;
+    height: 20px;
+    /*背景去掉*/
+    background: none;
+    /*边框去掉*/
+    border: none;
+    /*去掉鼠标点击时蓝色框*/
+    outline:none;
+    /*设置鼠标小手状*/
+    cursor: pointer;
+    position: relative;
+    top:4px;
+    right: 4px;
+   
+}

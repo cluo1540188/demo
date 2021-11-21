@@ -137,7 +137,184 @@ header .main-nav ul li a:hover{
 /**banner区域**/
 .banner{
     width: 100%;
+    position: relative;
 }
 .banner .banner-img{
     width: 100%;
+}
+.banner .content{
+    position: absolute;
+    width: 1200px;
+    height:300px;
+    top:50%;
+    left:50%;
+    margin-top:-150px;
+    margin-left:-600px;
+
+}
+.banner .content h2{
+    position: absolute;
+    top:50%;
+    left:114px;
+    width:504px;
+    height: 79px;
+    margin-top: -50px;
+    font-weight: normal;
+    font-size:50px;
+    color: #015E58;
+}
+.banner .content .left-btn{
+    position: absolute;
+    top:50%;
+    left:0;
+    width: 56px;
+    height: 64px;
+    margin-top: -37px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.banner .content .right-btn{
+    position: absolute;
+    top:50%;
+    right:0;
+    width: 56px;
+    height: 64px;
+    margin-top: -37px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.banner .content ol{
+    position: absolute;
+    width: 120px;
+    height: 12px;
+    left:50%;
+    margin-left:-60px;
+    bottom: 20px;
+
+}
+.banner .content ol li{
+    float: left;
+    width:20px;
+    height:12px;
+    margin-right: 10px;
+    background-color: white;   
+}
+.banner .content ol li:last-child{
+    margin-right:0;
+}
+.banner .content .cur{
+    width: 30px;
+    background-color: #00978E;
+}
+/**内容部分**/
+.content{
+    padding-top: 70px;
+}
+.content .useful-links{
+    width: 906px;
+    height: 151px;
+    margin: 0 auto;
+}
+.content .useful-links ul{
+    overflow: hidden;
+}
+.content .useful-links ul li{
+    float: left;
+    width: 104px;
+    margin-right:46px;
+}
+.content .useful-links ul li span{
+    display: block;
+    text-align: center;
+    color: #333333;
+    font-size: 20px;
+    line-height: 40px;
+}
+/**医院动态与公告**/
+.content .news-and-notice{
+    width: 1200px;
+    height: 376px;
+    margin: 0 auto;
+    padding-top: 56px;
+}
+.content .news-and-notice .news{
+    float: left;
+    width: 877px;
+    height: 376px;
+}
+.content .news-and-notice .news h3{
+    
+    height: 33px;
+    margin-bottom: 10px;
+}
+.content .news-and-notice .news .news-content .hot-news{
+    float: left;
+    width: 422px;
+    height: 328px;
+    margin-right: 20px;
+    position: relative;
+}
+
+.content .news-and-notice .news .news-content .hot-news .info{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    background: rgba(0, 0, 0, .3);
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    color: #FFFFFF;
+    line-height: 40px;
+}
+
+.content .news-and-notice .news .news-content ul{
+    float: left;
+    width: 400px;
+    
+    
+}
+.content .news-and-notice .news .news-content ul li{
+    line-height: 41px;  
+}
+.content .news-and-notice .news .news-content ul li a{
+    float: left;
+    color: #666666;
+    font-size: 14px;
+}
+.content .news-and-notice .news .news-content ul li .spec{
+    color: #00978E;
+    font-weight: bold;
+}
+.content .news-and-notice .news .news-content ul li span{
+    float: right;
+}
+.content .news-and-notice .notice{
+    float: left;
+    width: 323px;
+    height: 376px;
+}
+
+.content .news-and-notice .notice h3{
+    
+    height: 33px;
+    margin-bottom: 10px;
+}
+.content .news-and-notice .notice ol li{
+    overflow: hidden;
+    margin-bottom: 11px;
+}
+.content .news-and-notice .notice ol li .number{
+    float: left;
+    width: 53px;
+    height: 57px;
+    background-color: #00978E;
+    font-size: 30px;
+    color: white;
+    line-height: 57px;
+    text-align: center;
+    margin-right: 9px;
+}
+.content .news-and-notice .notice ol li dl dt a{
+    color: #666666;
+}
+.content .news-and-notice .notice ol li dl dd a{
+    color: #999999;
 }

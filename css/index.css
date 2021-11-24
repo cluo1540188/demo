@@ -16,9 +16,7 @@ body{
 }
 
 /*头部页面*/
-header{
 
-}
 header .header-top{
     width: 1200px;
     margin: 0 auto;
@@ -35,7 +33,8 @@ header .header-top .logo h1{
     width: 221px;
     height: 63px;
     color: #00978E;
-    
+    background-image:url(../images/logo.png);
+    text-indent: -66666px;
 }
 header .header-top .tool{
     width: 266px;
@@ -50,7 +49,7 @@ header .header-top .tool .r1 .tel{
     width:32px;
     height:25px;
 }
-header .header-top .tool .r1 .telphone{
+header .header-top .tool .r1 .telephone{
     font-size: 20px;
     color: #00978E;
     display:inline-block;
@@ -71,6 +70,7 @@ header .header-top .tool .r2{
     width: 264px;
     height:28px;
     border:1px solid #9999;
+    border-radius: 4px;
 }
 header .header-top .tool .r2 input{
     float: left;
@@ -82,6 +82,7 @@ header .header-top .tool .r2 input{
     color: rgba(202,202,202,0.60);
     outline:none;
     font-size:14px;
+    
 }
 header .header-top .tool .r2 button{
     float: left;
@@ -106,6 +107,7 @@ header .header-top .tool .r2 button{
 header .main-nav{
     height: 60px;
     background: #00978E;
+    margin-top:29px;
 }
 header .main-nav ul{
     width: 1024px;
@@ -139,6 +141,7 @@ header .main-nav ul li a:hover{
     width: 100%;
     position: relative;
 }
+
 .banner .banner-img{
     width: 100%;
 }
@@ -167,19 +170,41 @@ header .main-nav ul li a:hover{
     position: absolute;
     top:50%;
     left:0;
-    width: 56px;
-    height: 64px;
+    width: 55px;
+    height: 73px;
     margin-top: -37px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url(../images/icons.png);
+    background-position: -42px -31px;
+}
+.banner .content .left-btn:hover{
+    position: absolute;
+    top:50%;
+    left:0;
+    width: 55px;
+    height: 73px;
+    margin-top: -37px;
+    background-image: url(../images/icons.png);
+    background-position: -160px -31px;
 }
 .banner .content .right-btn{
     position: absolute;
     top:50%;
     right:0;
-    width: 56px;
-    height: 64px;
+    width: 55px;
+    height: 73px;
     margin-top: -37px;
-    background-color: rgba(0, 0, 0, 0.3);
+    background-image: url(../images/icons.png);
+    background-position: -42px -122px;
+}
+.banner .content .right-btn:hover{
+    position: absolute;
+    top:50%;
+    right:0;
+    width: 55px;
+    height: 73px;
+    margin-top: -37px;
+    background-image: url(../images/icons.png);
+    background-position: -160px -122px;
 }
 .banner .content ol{
     position: absolute;
@@ -189,6 +214,7 @@ header .main-nav ul li a:hover{
     margin-left:-60px;
     bottom: 20px;
 
+
 }
 .banner .content ol li{
     float: left;
@@ -196,6 +222,7 @@ header .main-nav ul li a:hover{
     height:12px;
     margin-right: 10px;
     background-color: white;   
+    border-radius: 4px;
 }
 .banner .content ol li:last-child{
     margin-right:0;
@@ -207,6 +234,13 @@ header .main-nav ul li a:hover{
 /**内容部分**/
 .content{
     padding-top: 70px;
+}
+.content h3{
+    border-left: 8px solid #00978E;
+    padding-left: 10px;
+    height: 20px;
+    line-height: 20px;
+      
 }
 .content .useful-links{
     width: 906px;
@@ -242,8 +276,8 @@ header .main-nav ul li a:hover{
 }
 .content .news-and-notice .news h3{
     
-    height: 33px;
-    margin-bottom: 10px;
+
+    margin-bottom: 20px;
 }
 .content .news-and-notice .news .news-content .hot-news{
     float: left;
@@ -294,8 +328,8 @@ header .main-nav ul li a:hover{
 
 .content .news-and-notice .notice h3{
     
-    height: 33px;
-    margin-bottom: 10px;
+ 
+    margin-bottom: 20px;
 }
 .content .news-and-notice .notice ol li{
     overflow: hidden;

@@ -352,3 +352,12 @@ header .main-nav ul li a:hover{
 .content .news-and-notice .notice ol li dl dd a{
     color: #999999;
 }
+.ad-images{
+    width: 1200px;
+    margin:0 auto;
+    padding-top:20px;
+}
+.dep-info{
+    width:1200px;
+    margin:0 auto;
+}

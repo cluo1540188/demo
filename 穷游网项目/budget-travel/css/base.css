@@ -1,0 +1,38 @@
+/*
+通用样式*/
+@font-face{
+    font-family:"PingFangSCRegular";
+    src:url(../fonts/PingFangSCRegular.ttf) format('truetype');
+}
+body{
+    font-family:"PingFangSCRegular" ;
+}
+.content-wrap{
+    margin:0 auto;
+    width: 1152px;
+}
+.wd{
+    text-align: center;
+}
+.bd{
+    display: block;
+}
+.bid{
+    display:inline-block;
+}
+.fl{
+    float:left;
+}
+.fr{
+    float:right;
+}
+.clearfix{
+    overflow:hidden;
+}
+.clearfix::after{
+    content:'';
+    display:block;
+    clear: both;
+    overflow: hidden;
+
+}

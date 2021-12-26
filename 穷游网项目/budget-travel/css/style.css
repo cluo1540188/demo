@@ -1,59 +1,181 @@
-.site-head{
-    height:150px;
-
-}
-.site-head .topbar{
-    height:32px;
-    background: #2A2A2A;
-    color: white;
-    line-height: 32px;
+#site-head {
+  height: 150px;
 }
 
-.site-head .topbar  a{
-    color:white;
+/**一级导航栏-左边**/
+#site-head .topbar {
+  height: 32px;
+  background: #2a2a2a;
+  color: white;
+  line-height: 32px;
 }
-.site-head .topbar .shortcut-links {
-    float: left;
-}
-.site-head .topbar .shortcut-links ul{
+
+#site-head .topbar  a {
+  color: white;
 
 }
-.site-head .topbar .shortcut-links > ul > li {
-    float: left;
-    margin-right: 18px;
+#site-head .topbar .shortcut-links {
+  float: left;
+}
+#site-head .topbar .shortcut-links ul {
+}
+#site-head .topbar .shortcut-links > ul > li {
+  float: left;
+  margin-right: 18px;
+  font-size: 14px;
+}
+#site-head .topbar .shortcut-links > ul > li.have-menu {
+  padding-right: 12px;
+  position: relative;
+}
+#site-head .topbar .shortcut-links > ul > li.have-menu:hover .arrow {
+  transform: rotate(180deg);
+}
+#site-head .topbar .shortcut-links > ul > li.have-menu .arrow {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-top: -6px;
+  width: 12px;
+  height: 12px;
+  transition: transform 0.5s ease 0s;
+}
+#site-head .topbar .shortcut-links > ul > li.have-menu .arrow b {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 2px;
+  left: 3px;
+  background: #fff;
+  transform: rotate(45deg);
+}
+#site-head .topbar .shortcut-links > ul > li.have-menu .arrow i {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  top: 0.5px;
+  left: 3px;
+  background: #2a2a2a;
+  transform: rotate(45deg);
+}
+
+/**一级导航栏-右边**/
+#site-head .topbar .shortcut-right{
+    float: right;
+    width: 225px;
+    
+}
+#site-head .topbar .shortcut-right a,#site-head .topbar .shortcut-right span {
+    margin-right: 12px;
     font-size: 14px;
 }
-.site-head .topbar .shortcut-links > ul > li.have-menu {
-    padding-right: 12px;
-    position: relative;
+
+#site-head .topbar .shortcut-right a:last-child{
+    margin-right:0;     
 }
-.site-head .topbar .shortcut-links > ul > li.have-menu:hover .arrow{
+/**二级导航栏**/
+#site-head #main-nav{
+    height: 40px;
+    background-color: #20BD9A;
+    color: white;
+    line-height: 40px;
+}
+#site-head #main-nav a{
+    color: white;
+    font-family: PingFangSC-Regular;
+    font-size: 16px;
+    text-align: justify;
+    
+}
+#site-head #main-nav .menu-list{
+    
+}
+#site-head #main-nav .menu-list > li{
+    float: left;
+    margin-right: 18px;
+}
+#site-head #main-nav .menu-list > li:last-child{
+    margin-right: 0;
+}
+#site-head #main-nav .menu-list .have-menu{
+    padding-right: 16px;
+    position: relative;
+    
+}
+/**二级菜单 strat**/
+#site-head .topbar .shortcut-links .have-menu .menu{
+    position: absolute;
+    top: 32px;
+    left:0;
+    width: 300px;
+    height: 400px;
+    background:orange;
+    z-index: 9999;
+    display: none;  /**隐藏**/
+    
+}
+#site-head .topbar .shortcut-links .have-menu:hover .menu{
+   display: block;  /**鼠标碰到出现**/
+    
+}
+#site-head #main-nav .menu-list .have-menu::before{
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 0px;
+    height: 0px;
+    border: 4px solid transparent;
+    border-bottom: none;
+    border-top-color:white;
+    transition:transform .5s ease 0s;
+    
+}
+#site-head #main-nav .menu-list .have-menu:hover::before{
     transform: rotate(180deg);
 }
-.site-head .topbar .shortcut-links > ul > li.have-menu .arrow{
-    position: absolute;
-    right:0;
-    top:50%;
-    margin-top:-6px;
-    width: 12px;
-    height:12px;
-    transition: transform .5s ease 0s;
+
+/**search-head 搜索框**/
+#site-head #search-head{
+    height: 36px;
+    padding: 21px 0;
+    
 }
-.site-head .topbar .shortcut-links > ul > li.have-menu .arrow b{
-    position: absolute;
-    width: 6px;
-    height:6px;
-    top:2px;
-    left:3px;
-    background:#fff;
-    transform: rotate(45deg);
+#site-head #search-head h1{
+    float: left;
+    color:#20BD9A;
+    font-weight: bolder;
+    font-size: 24px;
+    line-height: 36px;
+
 }
-.site-head .topbar .shortcut-links > ul > li.have-menu .arrow i{
-    position: absolute;
-    width: 6px;
-    height: 6px;
-    top:0.5px;
-    left:3px;
-    background:#2A2A2A;
-    transform: rotate(45deg);
+#site-head #search-head .search{
+    float: left;
+    width:405px;
+    padding-top: 2px;
+    margin-left: 20px;
+}
+#site-head #search-head .search input{
+    float: left;
+   
+    width: 361px;
+    height: 28px;
+     
+     border-radius: 4px 0 0 4px;/* 分别按四个角进行设置 */
+      
+    outline: none;/* 取消默认的外线（外线是文本框特有的东西） */
+    border: 1px solid #20BD9A;
+    padding-left: 10px;
+}
+#site-head #search-head .search .btn{
+    float: left;
+    width: 32px;
+    height: 30px;
+    background-color:#20BD9A;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    font-size: 18px;
+    border-radius: 0 4px 4px 0;
+    
 }

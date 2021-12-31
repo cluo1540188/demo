@@ -13,6 +13,7 @@
 </head>
 <body>
     <header id="site-head">
+        <!--一级导航栏-->
         <div class="topbar">
             <div class="content-wrap">
                 <nav class="shortcut-links">
@@ -29,7 +30,7 @@
                                 <b></b>
                                 <i></i>
                             </em>
-                            <div class="menu">
+                            <div class="menu community">
                                 <ul class="menu-list">
                                     <li><a href="">旅行论坛</a></li>
                                     <li><a href="">旅行专栏</a></li>
@@ -51,6 +52,19 @@
                                 <b></b>
                                 <i></i>
                             </em>
+                            <div class="menu shop">
+                                <ul class="menu-list">
+                                    <li><a href="#">机酒自由行</a></li>
+                                    <li><a href="#">当地玩乐</a></li>
+                                    <li><a href="#">签证</a></li>
+                                    <li><a href="#">保险</a></li>
+                                    <li><a href="#">租车自驾</a></li>
+                                    <li><a href="#">游轮</a></li>
+                                    <li><a href="#">河轮</a></li>
+                                    <li><a href="#">私人订制</a></li>
+                                    <li><a href="#">欧洲铁路</a></li>
+                                </ul>
+                            </div>
                         </li>
                         <li class="have-menu">
                             <a href="#">酒店.民宿</a>
@@ -58,6 +72,14 @@
                                 <b></b>
                                 <i></i>
                             </em>
+                            <div class="menu hotelHomestay">
+                                <ul class="menu-list">
+                                    <li><a href="">酒店</a></li>
+                                    <li><a href="">爱彼迎</a></li>
+                                    <li><a href="">华人旅馆</a></li>
+                                    
+                                </ul>
+                            </div>
                         </li>
                         <li>
                             <a href="#">特价酒店</a>
@@ -77,23 +99,63 @@
               
             </div>
         </div>
+        <!--二级导航栏-->
         <nav id="main-nav">
             <div class="content-wrap">
                 <ul class="menu-list">
                     <li class="have-menu">
                         <a href="#">机酒自由行</a>
+                        <div class="menu free-travel">
+                            <dl>
+                                <dt>全部</dt>
+                                <dd>
+                                    <a href="#">自由行</a>
+                                    <a href="#">优惠机票</a>
+                                    <a href="#">酒店</a>
+                                    <a href="#">游轮</a>
+                                    <a href="#">定制游</a>
+                                    <a href="#">马尔代夫</a>
+                                    <a href="#">海岛游</a>
+                                </dd>
+                            </dl>
+                        </div>
+                    
                     </li>
                     <li>
                         <a href="#">优惠机票</a>
                     </li>
                     <li class="have-menu">
                         <a href="#">跟团游</a>
+                        <div class="menu group">
+                            <dl>
+                                <dt>全部</dt>
+                                <dd>
+                                    <a href="#">跟团游</a>
+                                    <a href="#">半自助游</a>
+                                    
+                                </dd>
+                            </dl>
+                        </div>
                     </li>
                     <li>
                         <a href="#">酒店</a>
                     </li>
                     <li  class="have-menu">
                         <a href="#">当地玩乐</a>
+                        <div class="menu local-fun">
+                            <dl>
+                                <dt>全部</dt>
+                                <dd>
+                                    <a href="#">日游小团</a>
+                                    <a href="#">深度体验</a>
+                                    <a href="#">门票票卷</a>
+                                    <a href="#">餐饮美食</a>
+                                    <a href="#">WIFI电话卡</a>
+                                    <a href="#">购物</a>
+                                    <a href="#">交通卡</a>
+                                </dd>
+                            </dl>
+                        </div>
                     </li>
                     <li>
                         <a href="#">签证</a>
@@ -110,14 +172,25 @@
                     <li>
                         <a href="#"> 租车自驾</a>
                     </li>
-                    <li>
+                    <li class="have-menu">
                         <a href="#">深度旅游</a>
+                        <div class="menu tourism">
+                            <dl>
+                                <dt>全部</dt>
+                                <dd>
+                                    <a href="#">CityWalk</a>
+                                    <a href="#">特色长线</a>
+                                    <a href="#">Q-Home</a>
+                                </dd>
+                            </dl>
+                        </div>
                     </li>
                     <li>
                         <a href="#">私人地</a>
                     </li>
                 </ul>
         </nav>
+        <!--搜索框-->
         <div id="search-head">
             <div class="content-wrap">
                 <h1>慕云游商城</h1>
@@ -130,5 +203,90 @@
        
         </div>
     </header>
+    <!--banner-->
+    <section id="banner" class="banner">
+        <ul id="carousel_list" class="carousel_list">
+            <li>
+                <img src="images/banner1.jpg" alt="banner版图">
+            </li>
+        </ul>
+        <div class="content-wrap">
+            <a href="javascript:;" id="left_btn" class="leftbtn"></a>
+            <a href="javascript:;" id="right_btn" class="rightbtn"></a>
+            <nav class="banner-nav">
+                <ul id="banner-nav-ul">
+                    <li class="hot" data-t="hot">
+                        <dl>
+                            <dt>热门出发地</dt>
+                            <dd>
+                                <em>北京</em>
+                                <em>上海</em>
+                                <em>广深</em>
+                                <em>西南</em>
+                                <em>国内其他</em>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="hk" data-t="hk">
+                        <dl>
+                            <dt>港澳台 国内</dt>
+                            <dd>
+                                <em>香港</em>
+                                <em>澳门</em>
+                                <em>台湾</em>
+                                <em>国内其他</em>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="jp" data-t="jp">
+                        <dl>
+                            <dt>日本 韩国</dt>
+                            <dd>
+                                <em>东京</em>
+                                <em>大阪</em>
+                                <em>冲绳</em>
+                                <em>北海道</em>
+                                <em>福冈</em>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="as" data-t="as">
+                        <dl>
+                            <dt>东南亚南亚</dt>
+                            <dd>
+                                <em>泰国</em>
+                                <em>新加坡</em>
+                                <em>印尼</em>
+                                <em>马来西亚</em>
+                                <em>越南</em>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="eu" data-t="eu">
+                        <dl>
+                            <dt>欧洲 美洲</dt>
+                            <dd>
+                                <em>英国</em>
+                                <em>法国</em>
+                                <em>美国</em>
+                                <em>加拿大</em>
+                            </dd>
+                        </dl>
+                    </li>
+                    <li class="au" data-t="au">
+                        <dl>
+                            <dt>澳新 中东非</dt>
+                            <dd>
+                                <em>澳大利亚</em>
+                                <em>新西兰</em>
+                                <em>迪拜</em>
+                            </dd>
+                        </dl>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        
+    </section>
 </body>
 </html>

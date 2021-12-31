@@ -390,3 +390,17 @@
   margin-top: -8.5px;
   left: 12px;
 }
+
+/**hot-ad  start**/
+#hot-ad{
+  margin:32px 0px;
+}
+#hot-ad ul li{
+  float: left;
+  width: 264px;
+  height: 110px;
+  margin-right:32px;
+}
+#hot-ad ul li:last-child{
+  margin-right:0;
+}
